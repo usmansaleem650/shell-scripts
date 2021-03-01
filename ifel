@@ -1,0 +1,19 @@
+#!/bin/bash
+echo " number greater or not "
+echo "enter 1 number "
+read in1
+echo "enter 2 number"
+read in2
+
+if [ $in1 -lt $in2 ]
+then
+
+echo "No"
+
+else [ $in1 -gt $in2 ]
+
+echo "yes"
+
+fi
+
+
